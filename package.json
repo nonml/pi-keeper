@@ -1,0 +1,31 @@
+{
+  "name": "pi-keeper",
+  "version": "0.1.0",
+  "description": "Pi extension that keeps the model's working context lean: spills big tool outputs to disk, durable AGENTS.md notes, and off-context side-sessions over llama.cpp KV slots (with host-RAM state stash for single-slot / recurrent models)",
+  "license": "MIT",
+  "author": "nonml",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonml/pi-keeper.git"
+  },
+  "keywords": [
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "pi-package",
+    "context",
+    "llama.cpp",
+    "kv-cache"
+  ],
+  "files": [
+    "index.ts",
+    "server.ts",
+    "state.ts",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
